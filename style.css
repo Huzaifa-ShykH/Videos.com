@@ -1,0 +1,129 @@
+/*font-family:merienda;
+border:2px inset blue;*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body
+{
+	background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	/*background-image:blur(10px);*/
+}
+
+.background
+{
+/*	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;*/
+}
+.head
+{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0px;
+	display: flex;
+	justify-content:space-between;
+
+}
+.logo
+{
+	font-size: 40px;
+	text-align: center;
+	font-family: brush script mt;
+	color: white;
+	text-shadow: 0 0 10px #000;
+}
+.head ul li
+{
+	position: relative;
+	display: inline-block;
+	margin: 0 20px;
+
+}
+.head ul li a
+{
+	text-shadow: 0 0 15px #000;
+	font-weight: bold;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+}
+.head ul li ::after
+{
+	position: absolute;
+	height: 4px;
+	width: 0;
+	content:'';
+	left: 0px;
+	bottom: -10px;
+	background: #000;
+	transition:0.5s;
+}
+.head ul li :hover::after
+{
+	width: 100%;
+}
+.main
+{
+	/*background: white;*/
+	color: white;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	transform: translateY(-20%);
+}
+.main h1
+{
+	font-family: sans-serif; 
+	font-size: 80px;
+	text-shadow: 0 0 15px #0593B1;
+}
+.main p
+{
+	color: aqua;
+	text-shadow: 05px 5px 10px navy;
+	font-family: cursive;
+	margin: 20px 0px;
+	line-height: 30px;
+}
+button
+{
+	font-size: 20px;
+	color: silver;
+	width: 200px;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 30px;
+	font-weight: bold;
+	border: 2px solid gray;
+	background: none;
+	transition: 0.5s;
+	position: relative;
+	content: ''
+}
+button:hover
+{
+	color: #06202F;
+	width: 200px;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 30px;
+	font-weight: bold;
+	/*background: Silver;*/
+	background:linear-gradient(160deg, #333, silver,#003F5F);
+	border: none;
+}
+.btn{
+	transition-duration:.3s;
+	transition-delay:0.3s;
+}
